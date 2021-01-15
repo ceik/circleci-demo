@@ -14,8 +14,8 @@ jobs:
       - run:
           name: Hello Printer
           command: |
-          echo 'Hello'
-          echo 'Is it me you are looking for?'
+            echo 'Hello'
+            echo 'Is it me you are looking for?'
 
   print_world:
     docker:
@@ -24,12 +24,12 @@ jobs:
       - run:
           name: World Printer
           command: |
-          echo 'World'
-          echo 'You still there?'
+            echo 'World'
+            echo 'You still there?'
       - run:
           name: World Replier
           command: |
-          echo 'Yup, still here'
+            echo 'Yup, still here'
 
 workflows:
   # Name the workflow "welcome"
