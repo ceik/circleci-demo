@@ -35,7 +35,7 @@ jobs:
     docker:
       - image: alpine:3.7
     steps:
-      -run:
+      - run:
         name: Name Printer
         command: echo $MY_NAME
 
