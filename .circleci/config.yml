@@ -36,8 +36,8 @@ jobs:
       - image: alpine:3.7
     steps:
       - run:
-        name: Name Printer
-        command: echo $MY_NAME
+          name: Name Printer
+          command: echo $MY_NAME
 
 workflows:
   # Name the workflow "welcome"
